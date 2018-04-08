@@ -1,6 +1,6 @@
 {
     "name": "wyrihaximus/msgpack",
-    "description": "Drop in replacement for ext-msgpack utilizing rybakit/msgpack",
+    "description": "ext-msgpack polyfill using rybakit/msgpack",
     "license": "MIT",
     "authors": [
         {
