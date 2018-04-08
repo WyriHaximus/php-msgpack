@@ -26,6 +26,9 @@
             "vendor/rybakit/msgpack/tests/DataProvider.php"
         ]
     },
+    "suggest": {
+        "ext-msgpack": "For faster msgpack (un)packing"
+    },
     "config": {
         "sort-packages": true,
         "platform": {
