@@ -59,11 +59,11 @@ install:
 
 ## Run the actual test
 script:
-  - if [ -z "$qaExtended" ]; then make ci || yes; fi;
-  - if [ "$qaExtended" = "true" ]; then make ci-extended || yes; fi;
+  - if [ -z "$qaExtended" ]; then make ci || true; fi;
+  - if [ "$qaExtended" = "true" ]; then make ci-extended || true; fi;
   - pecl install msgpack
-  - if [ -z "$qaExtended" ]; then make ci || yes; fi;
-  - if [ "$qaExtended" = "true" ]; then make ci-extended || yes; fi;
+  - if [ -z "$qaExtended" ]; then make ci || true; fi;
+  - if [ "$qaExtended" = "true" ]; then make ci-extended || true; fi;
 
 ## Gather coverage and set it to coverage servers
 after_script: if [ "$qaExtended" = "true" ]; then make ci-coverage; fi;
