@@ -1,14 +1,13 @@
 <?php declare(strict_types=1);
 
-use MessagePack\Packer;
-use MessagePack\Unpacker;
+use MessagePack\MessagePack;
 
 function msgpack_pack($data)
 {
-    return (new Packer())->pack($data);
+    return MessagePack::pack($data);
 }
 
 function msgpack_unpack($msg)
 {
-    return (new Unpacker())->unpack($msg);
+    return MessagePack::unpack($msg);
 }
