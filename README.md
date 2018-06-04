@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/WyriHaximus/php-msgpack.svg?branch=master)](https://travis-ci.org/WyriHaximus/php-msgpack)
 [![Latest Stable Version](https://poser.pugx.org/WyriHaximus/msgpack/v/stable.png)](https://packagist.org/packages/WyriHaximus/msgpack)
 [![Total Downloads](https://poser.pugx.org/WyriHaximus/msgpack/downloads.png)](https://packagist.org/packages/WyriHaximus/msgpack)
-[![Code Coverage](https://scrutinizer-ci.com/g/WyriHaximus/php-msgpack/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/WyriHaximus/php-msgpack/?branch=master)
 [![License](https://poser.pugx.org/WyriHaximus/msgpack/license.png)](https://packagist.org/packages/WyriHaximus/msgpack)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/WyriHaximus/reactphp-http-middleware-clear-body/badge.svg)](https://travis-ci.org/WyriHaximus/reactphp-http-middleware-clear-body)
 
