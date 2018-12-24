@@ -1,30 +1,30 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "7ec42669540c8d7297d90f1a9803dd2f",
     "packages": [
         {
             "name": "rybakit/msgpack",
-            "version": "v0.5.0",
+            "version": "v0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rybakit/msgpack.php.git",
-                "reference": "59b31280d669eb85fb231e14d01aef520a4138cb"
+                "reference": "2c2f046ad6f2cc013770487517eaa99a6fec102a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/59b31280d669eb85fb231e14d01aef520a4138cb",
-                "reference": "59b31280d669eb85fb231e14d01aef520a4138cb",
+                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/2c2f046ad6f2cc013770487517eaa99a6fec102a",
+                "reference": "2c2f046ad6f2cc013770487517eaa99a6fec102a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.11",
+                "friendsofphp/php-cs-fixer": "^2.12",
                 "phpunit/phpunit": "^7.1"
             },
             "type": "library",
@@ -50,7 +50,7 @@
                 "pure",
                 "streaming"
             ],
-            "time": "2018-05-22T07:47:40+00:00"
+            "time": "2018-06-15T22:56:26+00:00"
         }
     ],
     "packages-dev": [
@@ -1100,7 +1100,7 @@
                     "homepage": "http://blog.astrumfutura.com"
                 },
                 {
-                    "name": "Théo FIDRY",
+                    "name": "Théo Fidry",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
@@ -1154,7 +1154,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
