@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.1.1",
-        "rybakit/msgpack": "^0.5.0"
+        "rybakit/msgpack": "^0.5.4"
     },
     "require-dev": {
         "api-clients/test-utilities": "^4.3"
