@@ -4,28 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02f079e8bd7bf8d65dbd9c5b845148e0",
+    "content-hash": "26d6e0d18859e0b7a1c98a11cc0a4990",
     "packages": [
         {
             "name": "rybakit/msgpack",
-            "version": "v0.5.4",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rybakit/msgpack.php.git",
-                "reference": "4e393dfd64b244814432c774661c6d54bdacee62"
+                "reference": "2dab1953058406f49ee8dee5addac7c4b9d4cebc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/4e393dfd64b244814432c774661c6d54bdacee62",
-                "reference": "4e393dfd64b244814432c774661c6d54bdacee62",
+                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/2dab1953058406f49ee8dee5addac7c4b9d4cebc",
+                "reference": "2dab1953058406f49ee8dee5addac7c4b9d4cebc",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.13",
-                "phpunit/phpunit": "^7.1"
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "phpunit/phpunit": "^7.1|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -50,7 +50,7 @@
                 "pure",
                 "streaming"
             ],
-            "time": "2019-01-01T22:07:02+00:00"
+            "time": "2019-10-02T17:53:43+00:00"
         }
     ],
     "packages-dev": [
@@ -1284,7 +1284,7 @@
                     "homepage": "http://blog.astrumfutura.com"
                 },
                 {
-                    "name": "Théo FIDRY",
+                    "name": "Théo Fidry",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
