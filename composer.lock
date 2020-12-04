@@ -8,26 +8,25 @@
     "packages": [
         {
             "name": "rybakit/msgpack",
-            "version": "v0.7.0",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rybakit/msgpack.php.git",
-                "reference": "8ad636b575619aa34eee8b70c564de4717b5cb41"
+                "reference": "2390ee3d5511755e255346a770783a853d5e0b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/8ad636b575619aa34eee8b70c564de4717b5cb41",
-                "reference": "8ad636b575619aa34eee8b70c564de4717b5cb41",
+                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/2390ee3d5511755e255346a770783a853d5e0b1e",
+                "reference": "2390ee3d5511755e255346a770783a853d5e0b1e",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.1"
+                "php": "^7.1.1|^8"
             },
             "require-dev": {
-                "ext-decimal": "*",
                 "ext-gmp": "*",
                 "friendsofphp/php-cs-fixer": "^2.14",
-                "phpunit/phpunit": "^7.1|^8.0"
+                "phpunit/phpunit": "^7.1|^8|^9"
             },
             "suggest": {
                 "ext-decimal": "For converting overflowed integers to Decimal objects",
@@ -56,7 +55,13 @@
                 "pure",
                 "streaming"
             ],
-            "time": "2020-01-27T23:31:20+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/rybakit",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-04T22:21:55+00:00"
         }
     ],
     "packages-dev": [
@@ -825,6 +830,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -869,6 +875,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
@@ -916,6 +923,7 @@
             ],
             "description": "This tool check syntax of PHP files about 20x faster than serial check.",
             "homepage": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
+            "abandoned": "php-parallel-lint/php-parallel-lint",
             "time": "2015-12-15T10:42:16+00:00"
         },
         {
@@ -1359,6 +1367,7 @@
                 "self-update",
                 "update"
             ],
+            "abandoned": true,
             "time": "2018-03-30T12:52:15+00:00"
         },
         {
@@ -2079,6 +2088,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-11-27T05:48:46+00:00"
         },
         {
@@ -3999,5 +4009,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.1.1"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
