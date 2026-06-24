@@ -44,11 +44,6 @@
     },
     "sort-packages": true
   },
-  "extra": {
-    "unused": [
-      "react/cache"
-    ]
-  },
   "scripts": {
     "post-install-cmd": [
       "make on-install-or-update || true"
