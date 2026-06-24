@@ -1,91 +1,55 @@
 {
-    "name": "wyrihaximus/msgpack",
-    "description": "ext-msgpack polyfill using rybakit/msgpack",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Cees-Jan Kiewiet",
-            "email": "ceesjank@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.1.1",
-        "rybakit/msgpack": "^0.5.4 || ^0.6.0 || ^0.7.0"
-    },
-    "require-dev": {
-        "api-clients/test-utilities": "^4.3"
-    },
-    "autoload": {
-        "files": ["src/functions_include.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "WyriHaximus\\Tests\\": "tests/"
-        },
-        "files": [
-            "vendor/rybakit/msgpack/tests/DataProvider.php"
-        ]
-    },
-    "suggest": {
-        "ext-msgpack": "For faster msgpack (un)packing"
-    },
-    "config": {
-        "sort-packages": true,
-        "platform": {
-            "php": "7.1.1"
-        }
-    },
-    "scripts": {
-        "ensure-installed": "composer install --ansi -n -q",
-        "cs": [
-            "@ensure-installed",
-            "php-cs-fixer fix --config=.php_cs --ansi --dry-run --diff --verbose --allow-risky=yes --show-progress=estimating"
-        ],
-        "cs-fix": [
-            "@ensure-installed",
-            "php-cs-fixer fix --config=.php_cs --ansi --verbose --allow-risky=yes --show-progress=estimating"
-        ],
-        "unit": [
-            "@ensure-installed",
-            "phpunit --colors=always -c phpunit.xml.dist"
-        ],
-        "unit-coverage": [
-            "@ensure-installed",
-            "phpunit --colors=always -c phpunit.xml.dist --coverage-text --coverage-html covHtml --coverage-clover ./build/logs/clover.xml"
-        ],
-        "lint-php": [
-            "@ensure-installed",
-            "parallel-lint --exclude vendor ."
-        ],
-        "qa-all": [
-            "@lint-php",
-            "@cs",
-            "@unit"
-        ],
-        "qa-all-coverage": [
-            "@lint-php",
-            "@cs",
-            "@unit-coverage"
-        ],
-        "qa-windows": [
-            "@lint-php",
-            "@cs",
-            "@unit"
-        ],
-        "qa-ci": [
-            "@unit"
-        ],
-        "qa-ci-extended": [
-            "@qa-all-coverage"
-        ],
-        "qa-ci-windows": [
-            "@qa-windows"
-        ],
-        "qa-contrib": [
-            "@qa-all"
-        ],
-        "ci-coverage": [
-            "if [ -f ./build/logs/clover.xml ]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover ./build/logs/clover.xml; fi"
-        ]
+  "name": "wyrihaximus/msgpack",
+  "description": "ext-msgpack polyfill using rybakit/msgpack",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com"
     }
+  ],
+  "require": {
+    "php": "^8.4",
+    "rybakit/msgpack": "^0.5.4 || ^0.6 || ^0.7 || ^0.8 || ^0.9"
+  },
+  "require-dev": {
+    "wyrihaximus/makefiles": "^0.11.1",
+    "wyrihaximus/test-utilities": "^13.2"
+  },
+  "suggest": {
+    "ext-msgpack": "For faster msgpack (un)packing"
+  },
+  "autoload": {
+    "files": [
+      "src/functions_include.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WyriHaximus\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "icanhazstring/composer-unused": true,
+      "infection/extension-installer": true,
+      "phpstan/extension-installer": true,
+      "wyrihaximus/makefiles": true,
+      "wyrihaximus/test-utilities": true
+    },
+    "platform": {
+      "php": "8.4.13"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "make on-install-or-update || true"
+    ],
+    "post-update-cmd": [
+      "make on-install-or-update || true"
+    ]
+  }
 }

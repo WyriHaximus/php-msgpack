@@ -1,10 +1,8 @@
 # MessagePack polyfill
 
-[![Build Status](https://travis-ci.org/WyriHaximus/php-msgpack.svg?branch=master)](https://travis-ci.org/WyriHaximus/php-msgpack)
 [![Latest Stable Version](https://poser.pugx.org/WyriHaximus/msgpack/v/stable.png)](https://packagist.org/packages/WyriHaximus/msgpack)
 [![Total Downloads](https://poser.pugx.org/WyriHaximus/msgpack/downloads.png)](https://packagist.org/packages/WyriHaximus/msgpack)
 [![License](https://poser.pugx.org/WyriHaximus/msgpack/license.png)](https://packagist.org/packages/WyriHaximus/msgpack)
-[![PHP 7 ready](http://php7ready.timesplinter.ch/WyriHaximus/reactphp-http-middleware-clear-body/badge.svg)](https://travis-ci.org/WyriHaximus/reactphp-http-middleware-clear-body)
 
 # Install
 
@@ -31,7 +29,7 @@ $data = msgpack_unpack($msg);
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Cees-Jan Kiewiet
+Copyright (c) 2026 Cees-Jan Kiewiet
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
