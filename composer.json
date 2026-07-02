@@ -13,8 +13,8 @@
     "rybakit/msgpack": "^0.5.4 || ^0.6 || ^0.7 || ^0.8 || ^0.9 || ^0.10"
   },
   "require-dev": {
-    "wyrihaximus/makefiles": "^0.12.0",
-    "wyrihaximus/test-utilities": "^13.2"
+    "wyrihaximus/makefiles": "^0.12.2",
+    "wyrihaximus/test-utilities": "^13.3.0"
   },
   "suggest": {
     "ext-msgpack": "For faster msgpack (un)packing"
