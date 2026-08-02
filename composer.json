@@ -1,6 +1,6 @@
 {
   "name": "wyrihaximus/msgpack",
-  "description": "ext-msgpack polyfill using rybakit/msgpack",
+  "description": "ext-msgpack polyfill",
   "license": "MIT",
   "authors": [
     {
@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^8.4",
-    "rybakit/msgpack": "^0.5.4 || ^0.6 || ^0.7 || ^0.8 || ^0.9 || ^0.10"
+    "ext-bcmath": "^8.4"
   },
   "require-dev": {
     "wyrihaximus/makefiles": "^0.13.3",
@@ -20,6 +20,9 @@
     "ext-msgpack": "For faster msgpack (un)packing"
   },
   "autoload": {
+    "psr-4": {
+      "WyriHaximus\\Msgpack\\": "src/"
+    },
     "files": [
       "src/functions_include.php"
     ]

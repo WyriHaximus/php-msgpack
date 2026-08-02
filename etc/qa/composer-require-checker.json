@@ -7,6 +7,7 @@
   ],
   "php-core-extensions" : [
     "Core",
+    "bcmath",
     "date",
     "pcre",
     "Phar",
