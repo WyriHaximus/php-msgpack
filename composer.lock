@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8898dcf42a83ca25a885cec2607c370",
+    "content-hash": "9309584d7a9c424889216ad69c5b13e3",
     "packages": [
         {
             "name": "rybakit/msgpack",
-            "version": "v0.10.0",
+            "version": "v0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rybakit/msgpack.php.git",
-                "reference": "17fdc1e09f986181850dcfef4851a03ea6539e95"
+                "reference": "0de15432ab0b6ecf5626c5941d412624854798d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/17fdc1e09f986181850dcfef4851a03ea6539e95",
-                "reference": "17fdc1e09f986181850dcfef4851a03ea6539e95",
+                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/0de15432ab0b6ecf5626c5941d412624854798d2",
+                "reference": "0de15432ab0b6ecf5626c5941d412624854798d2",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.2"
+                "php": "^8.2",
+                "php-64bit": "*"
             },
             "require-dev": {
                 "ext-decimal": "*",
@@ -59,7 +60,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rybakit/msgpack.php/issues",
-                "source": "https://github.com/rybakit/msgpack.php/tree/v0.10.0"
+                "source": "https://github.com/rybakit/msgpack.php/tree/v0.11.3"
             },
             "funding": [
                 {
@@ -67,7 +68,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-22T23:40:57+00:00"
+            "time": "2026-11-08T19:44:08+00:00"
         }
     ],
     "packages-dev": [
